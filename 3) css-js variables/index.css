@@ -1,0 +1,27 @@
+:root {
+    --spacing: 10px;
+    --blur: 10px;
+    --base: green;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: white;
+    background-color: darkslateblue;
+    font-family: monospace;
+}
+
+.hl {
+    font-size: 40px;
+    color: var(--base);
+}
+
+img {
+    margin-top: 50px;
+    padding: var(--spacing);
+    background-color: var(--base);
+    filter: blur(var(--blur));
+}
